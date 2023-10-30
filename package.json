@@ -1,0 +1,40 @@
+{
+  "name": "fontend",
+  "version": "1.0.0",
+  "description": "fjfsjlhjsfh",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node ./src/server.js",
+    "dev": "nodemon --exec babel-node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joribijou/fetch.git"
+  },
+  "author": "iradukunda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joribijou/fetch/issues"
+  },
+  "homepage": "https://github.com/joribijou/fetch#readme",
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/register": "^7.22.15",
+    "bcrypt": "^5.1.1",
+    "body-parse": "^0.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "nodemailer": "^6.9.7",
+    "nodemon": "^3.0.1"
+  }
+}
