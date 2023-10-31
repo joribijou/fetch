@@ -1,8 +1,8 @@
 import News from "../model/News";
 import errorResponse from "../utils/errorResponse";
 import successResponse from "../utils/SuccessResponse";
-// import sendEmail from "../utils/email";
-// import User from "../model/User";
+ import sendEmail from "../utils/email";
+  import User from "../model/User";
 // import Category from "../model/Category"
 
 class NewsController {
